@@ -3,9 +3,8 @@ import pkg from './package.json'
 
 export default defineManifest(async (env) => ({
   manifest_version: 3,
-  name: '2333',
+  name: 'Extension Starter',
   version: pkg.version,
-  // description: '__MSG_appDescription__',
   action: {
     default_icon: 'src/assets/icon-512.png',
     default_popup: 'src/popup/index.html',
