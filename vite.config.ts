@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react-swc'
 import { crx } from '@crxjs/vite-plugin'
 import manifest from './manifest.config'
 
-const dir = (...args: string[]) => resolve(__dirname, '..', ...args)
+const dir = (...args: string[]) => resolve(__dirname, ...args)
 const NODE_ENV = process.env.NODE_ENV
 
 // https://vitejs.dev/config/
